@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-/* Constantes: valores fixos do problema (preços não mudam) */
+/* Constantes: valores fixos do problema (precos nao mudam) */
 #define PRECO_REFEICAO 12.50
 #define PRECO_CAFE 4.00
 
-int main(void) {    /*listas*/
+int main(void) {
     int qtd_refeicoes, qtd_cafes;
-    float disponivel, gasto_refeicoes, gasto_cafes, gasto_total, saldo;
+    float disponivel, gasto_refeicoes, gasto_cafes, gasto_total, saldo, percentual;
 
     /* Entrada de dados */
     printf("Quantidade de refeicoes: ");
@@ -23,6 +23,7 @@ int main(void) {    /*listas*/
     gasto_cafes = qtd_cafes * PRECO_CAFE;
     gasto_total = gasto_refeicoes + gasto_cafes;
     saldo = disponivel - gasto_total;
+    percentual = (gasto_total / disponivel) * 100;
 
     /* Saida organizada */
     printf("\n");
@@ -30,6 +31,11 @@ int main(void) {    /*listas*/
     printf("Gasto cafes: %.2f\n", gasto_cafes);
     printf("Gasto total: %.2f\n", gasto_total);
     printf("Saldo restante: %.2f\n", saldo);
+    printf("Percentual do cartao utilizado: %.2f%%\n", percentual);
+
+    if (saldo < 0) {
+        printf("Atencao: saldo ficou negativo!\n");
+    }
 
     return 0;
 }
