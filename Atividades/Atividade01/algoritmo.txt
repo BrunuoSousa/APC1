@@ -1,0 +1,18 @@
+INÍCIO
+  CONSTANTE preco_refeicao = 12.50
+  CONSTANTE preco_cafe = 4.00
+
+  DECLARE qtd_refeicoes, qtd_cafes: inteiro
+  DECLARE disponivel, gasto_refeicoes, gasto_cafes, gasto_total, saldo: real
+
+  LEIA qtd_refeicoes
+  LEIA qtd_cafes
+  LEIA disponivel
+
+  gasto_refeicoes ← qtd_refeicoes * preco_refeicao
+  gasto_cafes ← qtd_cafes * preco_cafe
+  gasto_total ← gasto_refeicoes + gasto_cafes
+  saldo ← disponivel - gasto_total
+
+  ESCREVA gasto_refeicoes, gasto_cafes, gasto_total, saldo
+FIM
