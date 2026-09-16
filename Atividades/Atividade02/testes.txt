@@ -1,0 +1,37 @@
+TESTE 1
+Entrada:
+Nome do cliente: Edroaldo Lummertz
+Codigo do produto: 1042
+Nome do produto: oculos de sol
+Quantidade: 3
+Preco unitario: 15.90
+Categoria: a
+
+Saida:
+Cliente    : Edroaldo Lummertz
+Produto    : oculos de sol
+Codigo     : 1042
+Categoria  : a
+Qtd        : 3
+Unitario   : R$ 15.90
+Total      : R$ 47.70
+
+====================================
+
+TESTE 2
+Entrada:
+Nome do cliente: Evandivalderson Nunes
+Codigo do produto: 2087
+Nome do produto: Mochila Escolar
+Quantidade: 2
+Preco unitario: 89.50
+Categoria: B
+
+Saida:
+Cliente    : Evandivalderson Nunes
+Produto    : Mochila Escolar
+Codigo     : 2087
+Categoria  : B
+Qtd        : 2
+Unitario   : R$ 89.50
+Total      : R$ 179.00
