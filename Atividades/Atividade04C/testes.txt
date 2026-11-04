@@ -1,0 +1,123 @@
+Teste das opcoes 4 (vazia), 1, 2, 3, 4 (com notas), 7 (invalida) e 0
+
+$ ./gestao
+
+===== SISTEMA DE GESTAO ACADEMICA =====
+1 - Cadastrar Lista de Alunos
+2 - Estatisticas de Desempenho
+3 - Matriz de Notas da Turma
+4 - Consultar Aluno em Destaque
+0 - Encerrar
+========================================
+Opcao: 4
+
+--- CONSULTA DA MAIOR NOTA ---
+Nenhuma nota registrada. Use a opcao 2 primeiro.
+
+===== SISTEMA DE GESTAO ACADEMICA =====
+1 - Cadastrar Lista de Alunos
+2 - Estatisticas de Desempenho
+3 - Matriz de Notas da Turma
+4 - Consultar Aluno em Destaque
+0 - Encerrar
+========================================
+Opcao: 1
+
+--- CADASTRO DE ALUNOS ---
+Digite o nome do aluno 1: Julia Larissa
+Digite o nome do aluno 2: Diane Raquell
+Digite o nome do aluno 3: Breno Matos
+Digite o nome do aluno 4: Rodrigo Avila
+Digite o nome do aluno 5: Renato Avila
+
+--- ALUNOS CADASTRADOS ---
+Aluno 1: Julia Larissa
+Aluno 2: Diane Raquell
+Aluno 3: Breno Matos
+Aluno 4: Rodrigo Avila
+Aluno 5: Renato Avila
+
+===== SISTEMA DE GESTAO ACADEMICA =====
+1 - Cadastrar Lista de Alunos
+2 - Estatisticas de Desempenho
+3 - Matriz de Notas da Turma
+4 - Consultar Aluno em Destaque
+0 - Encerrar
+========================================
+Opcao: 2
+
+--- ESTATISTICAS DE DESEMPENHO ---
+Digite a nota final do aluno 1: 7
+Digite a nota final do aluno 2: 8
+Digite a nota final do aluno 3: 5
+Digite a nota final do aluno 4: 9
+Digite a nota final do aluno 5: 6
+
+Media da turma: 7.00
+Alunos com nota maior ou igual a media: 3
+
+===== SISTEMA DE GESTAO ACADEMICA =====
+1 - Cadastrar Lista de Alunos
+2 - Estatisticas de Desempenho
+3 - Matriz de Notas da Turma
+4 - Consultar Aluno em Destaque
+0 - Encerrar
+========================================
+Opcao: 3
+
+--- MATRIZ DE NOTAS DA TURMA ---
+Digite a nota do aluno 1 no bimestre 1: 10
+Digite a nota do aluno 1 no bimestre 2: 10
+Digite a nota do aluno 1 no bimestre 3: 10
+Digite a nota do aluno 1 no bimestre 4: 10
+Digite a nota do aluno 2 no bimestre 1: 5
+Digite a nota do aluno 2 no bimestre 2: 6
+Digite a nota do aluno 2 no bimestre 3: 7
+Digite a nota do aluno 2 no bimestre 4: 8
+Digite a nota do aluno 3 no bimestre 1: 9
+Digite a nota do aluno 3 no bimestre 2: 9
+Digite a nota do aluno 3 no bimestre 3: 8
+Digite a nota do aluno 3 no bimestre 4: 10
+
+--- BOLETIM COMPLETO ---
+Aluno   B1      B2      B3      B4      Media
+1       10.00   10.00   10.00   10.00   10.00
+2       5.00    6.00    7.00    8.00    6.50
+3       9.00    9.00    8.00    10.00   9.00
+
+===== SISTEMA DE GESTAO ACADEMICA =====
+1 - Cadastrar Lista de Alunos
+2 - Estatisticas de Desempenho
+3 - Matriz de Notas da Turma
+4 - Consultar Aluno em Destaque
+0 - Encerrar
+========================================
+Opcao: 4
+
+--- CONSULTA DA MAIOR NOTA ---
+Maior nota da turma: 9.00
+Indice no vetor: 3 (aluno numero 4)
+Aluno: Rodrigo Avila
+
+===== SISTEMA DE GESTAO ACADEMICA =====
+1 - Cadastrar Lista de Alunos
+2 - Estatisticas de Desempenho
+3 - Matriz de Notas da Turma
+4 - Consultar Aluno em Destaque
+0 - Encerrar
+========================================
+Opcao: 7
+
+Opcao invalida!
+
+===== SISTEMA DE GESTAO ACADEMICA =====
+1 - Cadastrar Lista de Alunos
+2 - Estatisticas de Desempenho
+3 - Matriz de Notas da Turma
+4 - Consultar Aluno em Destaque
+0 - Encerrar
+========================================
+Opcao: 0
+
+Encerrando o sistema...
+
