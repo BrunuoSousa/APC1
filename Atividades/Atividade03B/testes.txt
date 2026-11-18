@@ -1,0 +1,65 @@
+TESTES - Atividade 03B - Triagem de Protocolos
+Compilacao: gcc triagem_protocolo.c -std=c99 -Wall -Wextra -o triagem
+
+==================================================
+CENARIO 1: documento simples, expediente pleno
+Entrada: servico = 2, prioridade = N, dia = 4
+==================================================
+========================================
+     TRIAGEM DE PROTOCOLO ACADEMICO
+========================================
+Servico                         : Declaracao de matricula
+Categoria                       : Documento simples
+Prazo                           : 2 dias uteis
+Taxa base                       : R$ 15.00
+Prioridade                      : Normal
+Guiche                          : 2
+Acrescimo                       : R$ 0.00
+Dia                             : Quarta-feira
+Expediente                      : Pleno
+----------------------------------------
+Taxa final                      : R$ 15.00
+Status do servico               : ACEITO
+========================================
+
+==================================================
+CENARIO 2: ato solene, urgente em minuscula, sexta reduzida
+Entrada: servico = 6, prioridade = u, dia = 6
+==================================================
+========================================
+     TRIAGEM DE PROTOCOLO ACADEMICO
+========================================
+Servico                         : Colacao de grau
+Categoria                       : Ato solene
+Prazo                           : 15 dias uteis
+Taxa base                       : R$ 80.00
+Prioridade                      : Urgente
+Guiche                          : 1
+Acrescimo                       : R$ 10.00
+Dia                             : Sexta-feira
+Expediente                      : Reduzido
+----------------------------------------
+Taxa final                      : R$ 90.00
+Status do servico               : ACEITO
+========================================
+
+==================================================
+CENARIO 3: tres default (codigo, prioridade e dia invalidos)
+Entrada: servico = 9, prioridade = X, dia = 0
+==================================================
+========================================
+     TRIAGEM DE PROTOCOLO ACADEMICO
+========================================
+Servico                         : Codigo invalido
+Categoria                       : -
+Prazo                           : 0 dias uteis
+Taxa base                       : R$ 0.00
+Prioridade                      : Invalida
+Guiche                          : 0
+Acrescimo                       : R$ 0.00
+Dia                             : Dia invalido
+Expediente                      : Dia invalido
+----------------------------------------
+Taxa final                      : R$ 0.00
+Status do servico               : RECUSADO
+========================================

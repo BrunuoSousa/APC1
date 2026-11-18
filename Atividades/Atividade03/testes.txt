@@ -1,0 +1,54 @@
+TESTES - ATIVIDADE 03 - ANALISE DE BOLSA
+
+Teste 1 - Aluno Faixa A com nota alta e pontualidade S
+Entrada:
+Nome: Ana Maria Silva
+Idade: 20
+Renda familiar: R$ 1800
+Média acadêmica: 8.80
+Pontualidade: S
+
+Resultado esperado:
+Faixa A, desconto base de 50%, bônus de pontualidade de 5% e desconto total de 55%.
+
+Resultado obtido:
+Faixa A
+Desconto Base: 50.0%
+Bonus Pontual: 5.0%
+Desconto Total: 55.0%
+Status: APROVADO PARA BOLSA
+
+Teste 2 - Aluno Faixa B com pontualidade N
+Entrada:
+Nome: Carlos Eduardo Lima
+Idade: 30
+Renda familiar: R$ 3500
+Média acadêmica: 9.00
+Pontualidade: N
+
+Resultado esperado:
+Faixa B, desconto base de 25%, bônus de pontualidade de 0% e desconto total de 25%.
+
+Resultado obtido:
+Faixa B
+Desconto Base: 25.0%
+Bonus Pontual: 0.0%
+Desconto Total: 25.0%
+Status: APROVADO PARA BOLSA
+
+Teste 3 - Dados inválidos
+Entrada:
+Nome: Pedro Santos
+Idade: 15
+Renda familiar: R$ 1500
+Média acadêmica: 7.00
+Pontualidade: N
+
+Resultado esperado:
+O programa deve identificar a idade inválida, exibir uma mensagem de erro e encerrar a análise.
+
+Resultado obtido:
+Erro: idade ou renda invalida. Analise encerrada.
+
+Conclusão:
+Os três cenários foram testados com sucesso, incluindo dois casos válidos de faixas sociais diferentes e um caso de entrada inválida.
