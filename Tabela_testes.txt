@@ -1,0 +1,105 @@
+bruno@Extens□oDaMenteDoBruno MINGW64 /c/Programação Faculdade/APC1/Atividades/Atividade04 (feature/atividade04c)
+$ ./cadastro_turma.exe
+
+===== MINI CADASTRO DE TURMAS =====
+1 - Cadastrar aluno
+2 - Listar alunos
+3 - Buscar por matricula
+4 - Buscar por trecho do nome
+5 - Estatisticas
+0 - Sair
+Opcao: 1
+Matricula: 101
+Nome: Ana Souza
+Nota A1: 7.0
+Nota A2: 8.0
+Aluno cadastrado com sucesso!
+
+===== MINI CADASTRO DE TURMAS =====
+1 - Cadastrar aluno
+2 - Listar alunos
+3 - Buscar por matricula
+4 - Buscar por trecho do nome
+5 - Estatisticas
+0 - Sair
+Opcao: 1
+Matricula: 102       
+Nome: Bruno Lima
+Nota A1: 4.0
+Nota A2: 2.5
+Aluno cadastrado com sucesso!
+
+===== MINI CADASTRO DE TURMAS =====
+1 - Cadastrar aluno
+2 - Listar alunos
+3 - Buscar por matricula
+4 - Buscar por trecho do nome
+5 - Estatisticas
+0 - Sair
+Opcao: 1
+Matricula: 103
+Nome: Carla Dias
+Nota A1: 2.0
+Nota A2: 1.0
+Aluno cadastrado com sucesso!
+
+===== MINI CADASTRO DE TURMAS =====
+1 - Cadastrar aluno
+2 - Listar alunos
+3 - Buscar por matricula
+4 - Buscar por trecho do nome
+5 - Estatisticas
+0 - Sair
+Opcao: 2
+
+Matricula  | Nome                                     | A1   | A2   | Media | Status
+101        | Ana Souza                                | 7.0 | 8.0 | 7.6 | APROVADO
+102        | Bruno Lima                               | 4.0 | 2.5 | 3.1 | RECUPERACAO
+103        | Carla Dias                               | 2.0 | 1.0 | 1.4 | REPROVADO
+
+===== MINI CADASTRO DE TURMAS =====
+1 - Cadastrar aluno
+2 - Listar alunos
+3 - Buscar por matricula
+4 - Buscar por trecho do nome
+5 - Estatisticas
+0 - Sair
+Opcao: 3
+Matricula a buscar: 102
+102        | Bruno Lima                               | 4.0 | 2.5 | 3.1 | RECUPERACAO
+
+===== MINI CADASTRO DE TURMAS =====
+1 - Cadastrar aluno
+2 - Listar alunos
+3 - Buscar por matricula
+4 - Buscar por trecho do nome
+5 - Estatisticas
+0 - Sair
+Opcao: 4
+Trecho do nome: a
+101        | Ana Souza                                | 7.0 | 8.0 | 7.6 | APROVADO
+102        | Bruno Lima                               | 4.0 | 2.5 | 3.1 | RECUPERACAO
+103        | Carla Dias                               | 2.0 | 1.0 | 1.4 | REPROVADO
+
+===== MINI CADASTRO DE TURMAS =====
+1 - Cadastrar aluno
+2 - Listar alunos
+3 - Buscar por matricula
+4 - Buscar por trecho do nome
+5 - Estatisticas
+0 - Sair
+Opcao: 5
+Aprovados: 1
+Recuperacao: 1
+Reprovados: 1
+Media geral da turma: 4.03
+
+===== MINI CADASTRO DE TURMAS =====
+1 - Cadastrar aluno
+2 - Listar alunos
+3 - Buscar por matricula
+4 - Buscar por trecho do nome
+5 - Estatisticas
+0 - Sair
+Opcao: 0
+Saindo...
